@@ -1,3 +1,7 @@
+import Models.Book;
+import Controllers.BookController;
+import Views.ViewConsole;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -32,7 +36,18 @@ public class App {
                 new Book("Computer Organization and Design", 1994),
                 new Book("Deep Learning", 2016),
                 new Book("The Elements of Statistical Learning", 2001)
+
+                
+        
         };
+        
+                public void sortByName(Book[] books){
+                    
+                }
+
+                public Book[] searchByName(Book[] books, ){
+
+                }
 
     }
 }
